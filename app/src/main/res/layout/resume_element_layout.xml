@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="false">
+
+  <TextView
+      android:id="@+id/resume_element_name_tv"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:clickable="false"/>
+
+  <ImageView
+      android:id="@+id/resume_element_iv"
+      android:layout_width="120dp"
+      android:layout_height="120dp"
+      android:clickable="false"/>
+
+  <com.example.resume.ui.custom.ExpandingTextView
+      android:id="@+id/details_etv"
+      android:layout_width="120dp"
+      android:layout_height="120dp"
+      app:collapsedMaxLines="@integer/collapsed_max_lines"
+      android:clickable="true"/>
+
+</LinearLayout>
